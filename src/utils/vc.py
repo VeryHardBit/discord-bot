@@ -3,7 +3,6 @@ from src.utils.config import CONFIG
 import os
 import sys
 
-
 def get_PATH_ffmpeg():
     if 'win' in sys.platform:
         PATH_ffmpeg = CONFIG.audio.PATH_ffmpeg_windows
